@@ -1,0 +1,317 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	/*background-image: url('2016-07-07 Love TS Map Deep South.png'); */
+	background-color: lightgray;
+	color: #000305;
+	font-size: 87.5%; /* Base Font size is 14 px */
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 6px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #CF5C3F;
+}
+
+a:hover, a:active {
+	 color: #CF5C3F;
+	/*background-color: #CF5C3F;
+	color: #FFF; */
+}
+
+.body {
+	margin: auto;
+	width: 70%;
+	clear:both;
+}
+
+/*.mainHeader img {
+	width: 30%;
+	height: auto;
+	margin: 2% 0;
+
+}*/
+
+.mainHeader nav {
+	background-color: #666;
+	height: 40px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.mainHeader nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	float: left;
+	display: inline;
+
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+	/* Come back here to assign height */
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background-color: #CF5C3F;
+	text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.mainContent {
+	line-height: 25px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.content {
+	width: 50%;
+	float: left;
+}
+
+.topcontent {
+	background-color: #FFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 90%;
+}
+
+.bottomcontent {
+	background-color: #FFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	}
+
+.top-sidebar {
+	width: 40%;
+	float: left;
+	background-color: #FFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 2% 3%;
+}
+
+.middle-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 2% 3%;
+}
+
+.bottom-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 2% 3%;
+}
+
+.mainFooter {
+	width: 100%;
+	float: left;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #666;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 2% auto;
+	color: #FFF;
+}
+
+@media (max-width: 320px)
+{
+
+.body {
+	width: 90%;
+	font-size: 95%;
+	}
+
+.mainHeader img {
+	width: 100%;
+
+	}
+
+.mainHeader nav {
+
+	height: 160px;
+	/* make 4 times as big from original */
+}
+
+.mainHeader nav ul {
+	padding-left: 0;
+	}
+
+.mainHeader nav ul li {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	padding: 10px 25px;
+	height: 20px;
+	display: block;
+}
+
+/* This next section was deleted completely */
+/* mainHeader mainHeader LOL */
+/* This was scary to remove all of it */
+/* And also the next one, nav ul li a */
+
+/* At 59:12 Chris adds something (hate that) */
+/* display: blocked; */
+
+/* Moving on to mainContent */
+
+.mainContent {
+	line-height: 28px;
+	/* despite what he says I keep this one */
+}
+
+.content {
+	width: 100%;
+	float: left;
+	margin-top: 2%;
+	/* Notice the bluish marker above the ruler */
+	/* you have seen that before in Muse */
+}
+
+.topcontent {
+	background-color: #FFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 90%;
+	display: none;
+}
+
+.bottomcontent {
+	background-color: #FFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	}
+
+
+.top-sidebar, .middle-sidebar, .bottom-sidebar {
+	width: 94%;
+	/*float: left; */
+	margin: 2% 0 2% 0;
+	/*margin-left: 3%; */
+	/*margin-bottom: 2%; */
+	padding: 2% 3%;
+}
+
+}
+
+@media (min-width:321px)and (max-width:767px) {
+.mainHeader nav {
+
+	height: 160px;
+	/* make 4 times as big from original */
+}
+
+.mainHeader nav ul {
+	padding-left: 0;
+	}
+
+.mainHeader nav ul li {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	padding: 10px 25px;
+	height: 20px;
+	display: block;
+}
+
+.top-sidebar, .middle-sidebar, .bottom-sidebar {
+	width: 94%;
+	/*float: left; */
+	margin: 2% 0 2% 0;
+	/*margin-left: 3%; */
+	/*margin-bottom: 2%; */
+	padding: 2% 3%;
+}
+
+.content {
+	width: 100%;
+	float: left;
+	margin: 2% 0 2% 0;
+}
+}
